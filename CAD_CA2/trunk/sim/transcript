@@ -1,0 +1,53 @@
+# Compile of buffer.v was successful.
+# Compile of BUFFERTEST.v was successful.
+# Compile of CircularBuffer.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of datapath_components.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.BUFFER_TEST
+# vsim -gui work.BUFFER_TEST 
+# Start time: 23:02:21 on Nov 05,2024
+# Loading work.BUFFER_TEST
+# Loading work.top_module
+# Loading work.datapath
+# Loading work.write_pointer_counter
+# Loading work.read_pointer_counter
+# Loading work.difference_calculator
+# Loading work.semi_adder
+# Loading work.comparator_READY
+# Loading work.comparator_VALID
+# Loading work.comparator
+# Loading work.Buffer
+# Loading work.controller
+add wave -position end  sim:/BUFFER_TEST/WRITE_EN
+add wave -position end  sim:/BUFFER_TEST/WEN
+add wave -position end  sim:/BUFFER_TEST/VALID
+add wave -position end  sim:/BUFFER_TEST/RST
+add wave -position end  sim:/BUFFER_TEST/READY
+add wave -position end  sim:/BUFFER_TEST/READ_EN
+add wave -position end  sim:/BUFFER_TEST/PAR_WRITE
+add wave -position end  sim:/BUFFER_TEST/PAR_READ
+add wave -position end  sim:/BUFFER_TEST/NUM_REG
+add wave -position end  sim:/BUFFER_TEST/NUM_BIT
+add wave -position end  sim:/BUFFER_TEST/FULL
+add wave -position end  sim:/BUFFER_TEST/EMPTY
+add wave -position end  sim:/BUFFER_TEST/DOUT
+add wave -position end  sim:/BUFFER_TEST/DIN
+add wave -position end  sim:/BUFFER_TEST/CLK
+add wave -position end  sim:/BUFFER_TEST/ADDR_REG
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/write_pointer_counter/cnt_out
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/read_pointer_counter/cnt_out
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/difference_calculator/write_min_read
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/difference_calculator/read_min_write
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/comparator_1/result
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/comparator_2/result
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/Buffer/buffer[0]
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/Buffer/buffer[1]
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/Buffer/buffer[2]
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/Buffer/buffer[3]
+add wave -position end  sim:/BUFFER_TEST/FIFO_BUF/datapath/Buffer/buffer[4]
+run -all
+quit -sim
+# End time: 23:04:30 on Nov 05,2024, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 5

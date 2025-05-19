@@ -1,0 +1,147 @@
+# Compile of adder.v was successful.
+# Compile of controller.v was successful.
+# Compile of adder.v was successful with warnings.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of LUT.v was successful.
+# Compile of memory_address.v was successful.
+# Compile of mult.v was successful.
+# Compile of mux_group_outside.v was successful.
+# Compile of mux_group_pipe.v was successful.
+# Compile of mux2.v was successful.
+# Compile of n_plus.v was successful.
+# Compile of pipe.v was successful.
+# Compile of register.v was successful.
+# Compile of register_group_outside.v was successful.
+# Compile of register_group_pipe.v was successful.
+# Compile of register_temp.v was successful.
+# Compile of test_bench.v was successful.
+# Compile of top_module.v was successful.
+# 17 compiles, 0 failed with no errors.
+# Compile of datapath.v was successful.
+# Compile of LUT.v was successful.
+# Compile of memory_address.v was successful.
+# Compile of mult.v was successful.
+# Compile of mux_group_outside.v was successful.
+# Compile of mux_group_pipe.v was successful.
+# Compile of mux2.v was successful.
+vsim -gui work.test_bench
+# vsim -gui work.test_bench 
+# Start time: 14:38:51 on Nov 21,2024
+# Loading work.test_bench
+# Loading work.top_module
+# Loading work.datapath
+# Loading work.n_plus
+# Loading work.LookupTable
+# Loading work.register_group_outside
+# Loading work.register
+# Loading work.register_temp
+# Loading work.mux_group_outside
+# Loading work.mux2_to_1
+# Loading work.memory_address
+# Loading work.pipe
+# Loading work.mult
+# Loading work.adder
+# Loading work.register_group_pipe
+# Loading work.mux_group_pipe
+# Loading work.controller
+# Compile of n_plus.v was successful.
+# Compile of pipe.v was successful.
+# Compile of register.v was successful.
+# Compile of register_group_outside.v was successful.
+# Compile of register_group_pipe.v was successful.
+# Compile of register_temp.v was successful.
+# Compile of test_bench.v was successful.
+# Compile of top_module.v was successful.
+# 17 compiles, 0 failed with no errors.
+quit -sim
+# End time: 14:39:12 on Nov 21,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 3
+vsim -gui work.test_bench
+# vsim -gui work.test_bench 
+# Start time: 14:39:17 on Nov 21,2024
+# Loading work.test_bench
+# Loading work.top_module
+# Loading work.datapath
+# Loading work.n_plus
+# Loading work.LookupTable
+# Loading work.register_group_outside
+# Loading work.register
+# Loading work.register_temp
+# Loading work.mux_group_outside
+# Loading work.mux2_to_1
+# Loading work.memory_address
+# Loading work.pipe
+# Loading work.mult
+# Loading work.adder
+# Loading work.register_group_pipe
+# Loading work.mux_group_pipe
+# Loading work.controller
+add wave -position end  sim:/test_bench/y
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: CD CITY  Hostname: DESKTOP-BIKUJGP  ProcessID: 7932
+#           Attempting to use alternate WLF file "./wlftva24q0".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftva24q0
+add wave -position end  sim:/test_bench/x
+add wave -position end  sim:/test_bench/y
+add wave -position end  sim:/test_bench/x
+add wave -position end  sim:/test_bench/valid
+add wave -position end  sim:/test_bench/start
+add wave -position end  sim:/test_bench/rst
+add wave -position end  sim:/test_bench/Reset
+add wave -position end  sim:/test_bench/ready
+add wave -position end  sim:/test_bench/overflow
+add wave -position end  sim:/test_bench/n
+add wave -position end  sim:/test_bench/clk
+run -all
+# ** Note: $stop    : D:/UT TEHRAN/CAD/midterm/final_midterm/test_bench.v(73)
+#    Time: 1010 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at D:/UT TEHRAN/CAD/midterm/final_midterm/test_bench.v line 73
+# Compile of adder.v was successful.
+# Compile of controller.v was successful.
+# Compile of datapath.v was successful.
+# Compile of LUT.v was successful.
+# Compile of memory_address.v was successful.
+# Compile of mult.v was successful.
+# Compile of mux_group_outside.v was successful.
+# Compile of mux_group_pipe.v was successful.
+# Compile of mux2.v was successful.
+# Compile of n_plus.v was successful.
+# Compile of pipe.v was successful.
+# Compile of register.v was successful.
+# Compile of register_group_outside.v was successful.
+# Compile of register_group_pipe.v was successful.
+# Compile of register_temp.v was successful.
+# Compile of test_bench.v was successful.
+# Compile of top_module.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.test_bench
+# Loading work.top_module
+# Loading work.datapath
+# Loading work.n_plus
+# Loading work.LookupTable
+# Loading work.register_group_outside
+# Loading work.register
+# Loading work.register_temp
+# Loading work.mux_group_outside
+# Loading work.mux2_to_1
+# Loading work.memory_address
+# Loading work.pipe
+# Loading work.mult
+# Loading work.adder
+# Loading work.register_group_pipe
+# Loading work.mux_group_pipe
+# Loading work.controller
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : D:/UT TEHRAN/CAD/midterm/final_midterm/test_bench.v(73)
+#    Time: 1010 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at D:/UT TEHRAN/CAD/midterm/final_midterm/test_bench.v line 73
+quit -sim
+# End time: 15:42:45 on Nov 21,2024, Elapsed time: 1:03:28
+# Errors: 0, Warnings: 1

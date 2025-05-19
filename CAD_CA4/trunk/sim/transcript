@@ -1,0 +1,10 @@
+# Compile of Buffer.v was successful.
+# Compile of Buffer_controller.v was successful.
+# Compile of Buffer_datapath.v was successful.
+# Compile of Buffer_datapath_components.v was successful.
+# Compile of controller.v was successful.
+# Compile of convolution_calculator.v was successful.
+# Compile of datapath.v was successful.
+# Compile of datapath_components.v was successful.
+# Compile of convolution_calculator_tb.v was successful.
+# 9 compiles, 0 failed with no errors.

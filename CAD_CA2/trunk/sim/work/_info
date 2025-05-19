@@ -1,0 +1,302 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ROG/Downloads/2/2
+vBuffer
+Z0 !s110 1730835634
+!i10b 1
+!s100 J>beif>@1oW4b@JlE8[i10
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[6X_9FUddg8hPE[h[CihR3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/UT TEHRAN/CAD/CAD_CA2/trunk/sim
+w1730792016
+8../src/hdl/buffer.v
+F../src/hdl/buffer.v
+!i122 6
+Z4 L0 4 36
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1730835634.000000
+!s107 ../src/hdl/buffer.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/buffer.v|
+!i113 1
+Z7 o+acc -source
+Z8 !s92 +acc -source +define+SIM
+Z9 tCvgOpt 0
+n@buffer
+vBUFFER_TEST
+!s110 1730835635
+!i10b 1
+!s100 >4`Q39lgMFAbf_RU5c_1G3
+R1
+ION97@=93h6=7VDUB]IMn00
+R2
+R3
+w1730791748
+8./tb/BUFFER_TEST.v
+F./tb/BUFFER_TEST.v
+!i122 10
+L0 3 38
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./tb/BUFFER_TEST.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/BUFFER_TEST.v|
+!i113 1
+R7
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R9
+n@b@u@f@f@e@r_@t@e@s@t
+vcomparator
+R0
+!i10b 1
+!s100 EUkXBYS>e5d9X`MAEV8Pl1
+R1
+I@<gTLL=MYd;fakb7YhIMW2
+R2
+R3
+Z10 w1730730045
+Z11 8../src/hdl/datapath_components.v
+Z12 F../src/hdl/datapath_components.v
+!i122 7
+L0 49 12
+R5
+r1
+!s85 0
+31
+R6
+Z13 !s107 ../src/hdl/datapath_components.v|
+Z14 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/datapath_components.v|
+!i113 1
+R7
+R8
+R9
+vcomparator_READY
+R0
+!i10b 1
+!s100 BIFfGYIW^7RDSeChZHzAL1
+R1
+IjD7fQG]ZkbZfAOf3ZL[9R2
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 62 6
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+ncomparator_@r@e@a@d@y
+vcomparator_VALID
+R0
+!i10b 1
+!s100 fa=;U>fjjl:_V9b:Vfmm12
+R1
+IR8^iDe3Zja4F]QoW684h:2
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 69 6
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+ncomparator_@v@a@l@i@d
+vcontroller
+R0
+!i10b 1
+!s100 kVk[VE3bl?aMg667QXSON2
+R1
+IXF7gf_VhBeJoNX^FYPlUC3
+R2
+R3
+w1730791718
+8../src/hdl/Controller.v
+F../src/hdl/Controller.v
+!i122 9
+L0 3 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/hdl/Controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Controller.v|
+!i113 1
+R7
+R8
+R9
+vdatapath
+R0
+!i10b 1
+!s100 Cb]@]A]0hAe@lT9IK:d@51
+R1
+Id<leYci9o5@anE749RjI=1
+R2
+R3
+w1730791672
+8../src/hdl/Datapath.v
+F../src/hdl/Datapath.v
+!i122 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../src/hdl/Datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Datapath.v|
+!i113 1
+R7
+R8
+R9
+vdifference_calculator
+R0
+!i10b 1
+!s100 Ug=mo4;U^g][M?zRX9[0h1
+R1
+IFkbIoFe3L^fjKEJilli3K0
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 76 12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+vread_pointer_counter
+R0
+!i10b 1
+!s100 O6Z33W>4Q2S3n`R3OWlVe2
+R1
+I^o=J8?9XnacaBed_:KY_50
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 27 20
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+vsemi_adder
+R0
+!i10b 1
+!s100 TdMNzW@=:Wa5RJ:4QLhYK3
+R1
+IHjZD^FIWkzL4SAnHWheCL2
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 89 7
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9
+vtop_module
+!s110 1730835131
+!i10b 1
+!s100 9:?X24YnWzRM@E=ddX[QE1
+R1
+I>CX6WJmEDiZ;:17[j=2je1
+R2
+dD:/UT TEHRAN/CAD/CAD_CA2/clean_codes
+w1730791736
+8D:/UT TEHRAN/CAD/CAD_CA2/clean_codes/CircularBuffer.v
+FD:/UT TEHRAN/CAD/CAD_CA2/clean_codes/CircularBuffer.v
+!i122 2
+L0 4 14
+R5
+r1
+!s85 0
+31
+!s108 1730835131.000000
+!s107 D:/UT TEHRAN/CAD/CAD_CA2/clean_codes/CircularBuffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/CAD_CA2/clean_codes/CircularBuffer.v|
+!i113 1
+o-work work
+R9
+vwrite_pointer_counter
+R0
+!i10b 1
+!s100 oYV1:iJDbNNRzgcXBKgMW0
+R1
+ICkYJ4W>AZzK`>mf^g_`M;2
+R2
+R3
+R10
+R11
+R12
+!i122 7
+L0 5 20
+R5
+r1
+!s85 0
+31
+R6
+R13
+R14
+!i113 1
+R7
+R8
+R9

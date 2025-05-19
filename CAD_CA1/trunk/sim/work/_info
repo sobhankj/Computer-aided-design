@@ -1,0 +1,312 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ROG/Downloads/aaaa/CA#04
+vCAD1_TEST
+!s10a 1728752831
+!s110 1729149446
+!i10b 1
+!s100 9FVZ]mAHkhI2M`0:DIiZR3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie_^B>bY=@O=`7ccRSg<5D0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/UT TEHRAN/CAD/CAD_CA1/trunk/sim
+w1728752831
+8./tb/CAD1_TEST.v
+F./tb/CAD1_TEST.v
+!i122 289
+L0 3 16
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1729149446.000000
+!s107 ./tb/CAD1_TEST.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/CAD1_TEST.v|
+!i113 1
+Z4 o+acc -source
+!s92 +acc -source +incdir+../src/inc +define+SIM
+Z5 tCvgOpt 0
+n@c@a@d1_@t@e@s@t
+vcontroller
+!s10a 1729231091
+!s110 1729231102
+!i10b 1
+!s100 Rd2[14n@e7K9mFjhRFC7V1
+R0
+IzKaI_ZzNJg8g:oiID]FGi3
+R1
+R2
+w1729231091
+8../src/hdl/Controller.v
+F../src/hdl/Controller.v
+!i122 296
+L0 4 66
+R3
+r1
+!s85 0
+31
+!s108 1729231102.000000
+!s107 ../src/hdl/Controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Controller.v|
+!i113 1
+R4
+Z6 !s92 +acc -source +define+SIM
+R5
+vdatapath
+!s10a 1729232241
+Z7 !s110 1729149060
+!i10b 1
+!s100 ?^6F_]D4Ve:^b@d_ZZEiQ1
+R0
+IBgHAFnYakIo9n@e]I?KLA3
+R1
+R2
+w1728756061
+8../src/hdl/Datapath.v
+F../src/hdl/Datapath.v
+!i122 286
+L0 16 74
+R3
+r1
+!s85 0
+31
+Z8 !s108 1729149060.000000
+!s107 ../src/hdl/Datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/Datapath.v|
+!i113 1
+R4
+R6
+R5
+vInput_memory
+!s10a 1728751377
+R7
+!i10b 1
+!s100 8nfTZ1a<nIXoMS`>jP?f70
+R0
+IG3d]^OnHoNZLjFz=1k;@F0
+R1
+R2
+w1728751377
+8../src/hdl/input_memory.v
+F../src/hdl/input_memory.v
+!i122 287
+L0 6 11
+R3
+r1
+!s85 0
+31
+R8
+!s107 ../src/hdl/input_memory.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/input_memory.v|
+!i113 1
+R4
+R6
+R5
+n@input_memory
+vmultiplier
+Z9 !s10a 1728753818
+R7
+!i10b 1
+!s100 NO7UQKe[ACQXeFkbd<B@F0
+R0
+IHSUj]zgloF9TQlV<emTc?3
+R1
+R2
+Z10 w1728753818
+Z11 8../src/hdl/data_path_components.v
+Z12 F../src/hdl/data_path_components.v
+!i122 285
+L0 30 6
+R3
+r1
+!s85 0
+31
+R8
+Z13 !s107 ../src/hdl/data_path_components.v|
+Z14 !s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/data_path_components.v|
+!i113 1
+R4
+R6
+R5
+vOutput_memory
+!s10a 1729229139
+!s110 1729229249
+!i10b 1
+!s100 WQ]5kei7E9CYh5X[Y:H=l1
+R0
+I]MnLo[6IFNZk3?Y;RQ08a0
+R1
+R2
+w1729229139
+8../src/hdl/output_memory.v
+F../src/hdl/output_memory.v
+!i122 292
+L0 6 13
+R3
+r1
+!s85 0
+31
+!s108 1729229249.000000
+!s107 ../src/hdl/output_memory.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/output_memory.v|
+!i113 1
+R4
+R6
+R5
+n@output_memory
+vshift_register_inbuf
+R9
+R7
+!i10b 1
+!s100 @AX5CkQ@OW@>nK_J_Qb^62
+R0
+I3Ya5a7M4?PQiIz]O;HD3m1
+R1
+R2
+R10
+R11
+R12
+!i122 285
+L0 11 18
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R6
+R5
+vshift_register_outbuf
+R9
+R7
+!i10b 1
+!s100 V5PD@HHjF^H4jmaeFXM>g1
+R0
+I3E_@S3JFbiS0@[jL;n1Fz1
+R1
+R2
+R10
+R11
+R12
+!i122 285
+L0 37 17
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R6
+R5
+vtop_module
+!s110 1728756065
+!i10b 1
+!s100 M_Uzki:TzOH[zSSiUQS`k3
+R0
+IHagY:B@eML?N3:FKnl1I01
+R1
+dD:/UT TEHRAN/CAD/CAD_CA1
+w1728755166
+8D:/UT TEHRAN/CAD/CAD_CA1/TopDesign.v
+FD:/UT TEHRAN/CAD/CAD_CA1/TopDesign.v
+!i122 282
+L0 3 21
+R3
+r1
+!s85 0
+31
+!s108 1728756064.000000
+!s107 D:/UT TEHRAN/CAD/CAD_CA1/TopDesign.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/CAD_CA1/TopDesign.v|
+!i113 1
+o-work work
+R5
+vup_counter_16
+R9
+R7
+!i10b 1
+!s100 ?H5>6<YE_9Dh8[DBcPQB:3
+R0
+I<Gf6g]1En2@]>cQGOb1`G2
+R1
+R2
+R10
+R11
+R12
+!i122 285
+L0 91 16
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R6
+R5
+vup_counter_8
+R9
+R7
+!i10b 1
+!s100 l2Rncl;>:iiV_`Me_8jSX2
+R0
+IUig?0>QDLeOa9KLGjEEYS3
+R1
+R2
+R10
+R11
+R12
+!i122 285
+L0 74 16
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R6
+R5
+vup_down_counter
+R9
+R7
+!i10b 1
+!s100 SSI_WQPVE[YEje>CYTCHA3
+R0
+IX]_nclSFADo6KJ5G:FPKU3
+R1
+R2
+R10
+R11
+R12
+!i122 285
+L0 55 18
+R3
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 1
+R4
+R6
+R5

@@ -1,0 +1,526 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/CD CITY/Downloads/initial_design
+vadder
+!s10a 1732186902
+!s110 1732253051
+!i10b 1
+!s100 ;2b6Qh6`E2:jNAB5bz<Z^3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3Q=jl`27OI0LMOn:fdDS62
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/UT TEHRAN/CAD/midterm/final_midterm/trunk/sim
+w1732186902
+8../src/hdl/adder.v
+F../src/hdl/adder.v
+!i122 2107
+L0 3 5
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1732253051.000000
+!s107 ../src/hdl/adder.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/adder.v|
+!i113 1
+Z5 o+acc -source
+Z6 !s92 +acc -source +define+SIM
+Z7 tCvgOpt 0
+vbooth_multiplier
+!s110 1732092328
+!i10b 1
+!s100 ?P3TQ`S=K[AU`IY@W9E@e2
+R0
+IjkGJ`<P[<3C^JKffkY0ec2
+R1
+Z8 dD:/UT TEHRAN/CAD/midterm/final_midterm
+w1732091505
+8D:/UT TEHRAN/CAD/midterm/final_midterm/mult.v
+FD:/UT TEHRAN/CAD/midterm/final_midterm/mult.v
+!i122 1638
+L0 11 25
+R3
+r1
+!s85 0
+31
+!s108 1732092328.000000
+!s107 D:/UT TEHRAN/CAD/midterm/final_midterm/mult.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/midterm/final_midterm/mult.v|
+!i113 1
+Z9 o-work work
+R7
+vcontroller
+!s10a 1732037163
+!s110 1732253052
+!i10b 1
+!s100 N5z]_VO;I47gW6BZBAhR[0
+R0
+IiXl[YeY^HfNU8oIGPJb@E2
+R1
+R2
+w1732037163
+8../src/hdl/controller.v
+F../src/hdl/controller.v
+!i122 2108
+L0 2 51
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../src/hdl/controller.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/controller.v|
+!i113 1
+R5
+R6
+R7
+vdatapath
+!s10a 1732276869
+!s110 1732276902
+!i10b 1
+!s100 HZZH3fznj`OO95mQRk:R^0
+R0
+Ia<[B`eoI2TmX=14_BaHF71
+R1
+Z10 dD:/UT TEHRAN/CAD/midterm/trunk/sim
+w1732276869
+8../src/hdl/datapath.v
+F../src/hdl/datapath.v
+!i122 2125
+L0 2 134
+R3
+r1
+!s85 0
+31
+!s108 1732276902.000000
+!s107 ../src/hdl/datapath.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/datapath.v|
+!i113 1
+R5
+R6
+R7
+vLookupTable
+!s10a 1732121084
+Z11 !s110 1732253053
+!i10b 1
+!s100 M`AiXmIET^0?8?j7PL94c0
+R0
+IYOzJY<>KD0Xl<[m0=;YVI0
+R1
+R2
+w1732121084
+8../src/hdl/LUT.v
+F../src/hdl/LUT.v
+!i122 2110
+L0 2 60
+R3
+r1
+!s85 0
+31
+!s108 1732253052.000000
+!s107 ../src/hdl/LUT.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/LUT.v|
+!i113 1
+R5
+R6
+R7
+n@lookup@table
+vmemory_address
+!s10a 1732037175
+R11
+!i10b 1
+!s100 lPz9nW6<G_N6VeneQ4SRR0
+R0
+IS@QFjZFDa2F1RZJmEcIob3
+R1
+R2
+w1732037175
+8../src/hdl/memory_address.v
+F../src/hdl/memory_address.v
+!i122 2111
+Z12 L0 2 6
+R3
+r1
+!s85 0
+31
+Z13 !s108 1732253053.000000
+!s107 ../src/hdl/memory_address.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/memory_address.v|
+!i113 1
+R5
+R6
+R7
+vmult
+!s10a 1732186913
+R11
+!i10b 1
+!s100 HgB>G80?WkKMDXa6>EFbc2
+R0
+IK;>XMiDmJG[17AU^QR`aV1
+R1
+R2
+w1732186913
+8../src/hdl/mult.v
+F../src/hdl/mult.v
+!i122 2112
+L0 4 8
+R3
+r1
+!s85 0
+31
+R13
+!s107 ../src/hdl/mult.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/mult.v|
+!i113 1
+R5
+R6
+R7
+vmultiplier
+Z14 !s110 1732029678
+!i10b 1
+!s100 13nfMzb4h?Z:DSmM48z[<0
+R0
+I<aj[GR0[B?B>AZMBK5NNh0
+R1
+R8
+Z15 w1732014184
+Z16 8D:/UT TEHRAN/CAD/midterm/final_midterm/datapath_components.v
+Z17 FD:/UT TEHRAN/CAD/midterm/final_midterm/datapath_components.v
+!i122 344
+L0 1 8
+R3
+r1
+!s85 0
+31
+Z18 !s108 1732029678.000000
+Z19 !s107 D:/UT TEHRAN/CAD/midterm/final_midterm/datapath_components.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/midterm/final_midterm/datapath_components.v|
+!i113 1
+R9
+R7
+vmux2
+R14
+!i10b 1
+!s100 hh8g@=^4`Q?XmUKTm_ljd0
+R0
+Ie6lN835bc@gg4kKYMn0CQ3
+R1
+R8
+R15
+R16
+R17
+!i122 344
+L0 67 8
+R3
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R9
+R7
+vmux2_to_1
+!s10a 1732037191
+Z21 !s110 1732253054
+!i10b 1
+!s100 aAK;1No=8IlJhXli9WOAa0
+R0
+IlaQ2C:CFNgVe8i]A_mV[W0
+R1
+R2
+w1732037191
+8../src/hdl/mux2.v
+F../src/hdl/mux2.v
+!i122 2115
+R12
+R3
+r1
+!s85 0
+31
+Z22 !s108 1732253054.000000
+!s107 ../src/hdl/mux2.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/mux2.v|
+!i113 1
+R5
+R6
+R7
+vmux_group_outside
+!s10a 1732037183
+R21
+!i10b 1
+!s100 hLGTD^9?]zbJj460AKfCV2
+R0
+I5H^EFiBX0M>STBXNFFG:b2
+R1
+R2
+w1732037183
+8../src/hdl/mux_group_outside.v
+F../src/hdl/mux_group_outside.v
+!i122 2113
+L0 2 19
+R3
+r1
+!s85 0
+31
+R13
+!s107 ../src/hdl/mux_group_outside.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/mux_group_outside.v|
+!i113 1
+R5
+R6
+R7
+vmux_group_pipe
+!s10a 1732174708
+R21
+!i10b 1
+!s100 Pfb5SFGYRem=[8JUno=;z3
+R0
+I?_3gUfj[dKAV8Y8cRV0=41
+R1
+R2
+w1732174708
+8../src/hdl/mux_group_pipe.v
+F../src/hdl/mux_group_pipe.v
+!i122 2114
+L0 2 23
+R3
+r1
+!s85 0
+31
+R22
+!s107 ../src/hdl/mux_group_pipe.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/mux_group_pipe.v|
+!i113 1
+R5
+R6
+R7
+vmux_group_pipe_special
+!s110 1732133458
+!i10b 1
+!s100 ?iKKHa?gzgNid]Mc?7Ck71
+R0
+I^Yo]T3n?mJ4<SO[e`8:7]1
+R1
+R8
+w1732051372
+8D:/UT TEHRAN/CAD/midterm/final_midterm/mux_group_pipe.v
+FD:/UT TEHRAN/CAD/midterm/final_midterm/mux_group_pipe.v
+!i122 2046
+L0 27 24
+R3
+r1
+!s85 0
+31
+!s108 1732133457.000000
+!s107 D:/UT TEHRAN/CAD/midterm/final_midterm/mux_group_pipe.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/midterm/final_midterm/mux_group_pipe.v|
+!i113 1
+R9
+R7
+vn_plus
+!s10a 1732037195
+Z23 !s110 1732253055
+!i10b 1
+!s100 >:XfA9XY7nP;YeNn]7YMC3
+R0
+IkGco^6=_M9Y^1Id2XOe9c1
+R1
+R2
+w1732037195
+8../src/hdl/n_plus.v
+F../src/hdl/n_plus.v
+!i122 2116
+L0 2 5
+R3
+r1
+!s85 0
+31
+R22
+!s107 ../src/hdl/n_plus.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/n_plus.v|
+!i113 1
+R5
+R6
+R7
+vpipe
+!s10a 1732116463
+R23
+!i10b 1
+!s100 izWiPY=CBD@g;Rj;5TT??3
+R0
+IG4mkl4@0087UQkT=ECmd41
+R1
+R2
+w1732116463
+8../src/hdl/pipe.v
+F../src/hdl/pipe.v
+!i122 2117
+L0 2 66
+R3
+r1
+!s85 0
+31
+Z24 !s108 1732253055.000000
+!s107 ../src/hdl/pipe.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/pipe.v|
+!i113 1
+R5
+R6
+R7
+vregister
+!s10a 1732037213
+Z25 !s110 1732253056
+!i10b 1
+!s100 ^B8IzX4?[1`PzCOPVo2ZW1
+R0
+IW_Z]?PTOB^QaT1PScm[kg2
+R1
+R2
+w1732037213
+8../src/hdl/register.v
+F../src/hdl/register.v
+!i122 2121
+Z26 L0 2 14
+R3
+r1
+!s85 0
+31
+Z27 !s108 1732253056.000000
+!s107 ../src/hdl/register.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/register.v|
+!i113 1
+R5
+R6
+R7
+vregister_group_outside
+!s10a 1732040891
+R23
+!i10b 1
+!s100 `J[0FD_mR^RFZH;nI5Uam3
+R0
+I?U30b8c9TM9>0PgoMeE092
+R1
+R2
+w1732040891
+8../src/hdl/register_group_outside.v
+F../src/hdl/register_group_outside.v
+!i122 2118
+L0 2 18
+R3
+r1
+!s85 0
+31
+R24
+!s107 ../src/hdl/register_group_outside.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/register_group_outside.v|
+!i113 1
+R5
+R6
+R7
+vregister_group_pipe
+!s10a 1732037207
+R25
+!i10b 1
+!s100 6<MG[_IGg1i0S9;GoCab40
+R0
+I;2>]In70:H7hm=:5MK0zP3
+R1
+R2
+w1732037207
+8../src/hdl/register_group_pipe.v
+F../src/hdl/register_group_pipe.v
+!i122 2119
+L0 2 20
+R3
+r1
+!s85 0
+31
+R24
+!s107 ../src/hdl/register_group_pipe.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/register_group_pipe.v|
+!i113 1
+R5
+R6
+R7
+vregister_temp
+!s10a 1732037210
+R25
+!i10b 1
+!s100 @@61NF_i;gzkF`67l<Vzm3
+R0
+IOlRXd4X869<e3=Nc>Km;L3
+R1
+R2
+w1732037210
+8../src/hdl/register_temp.v
+F../src/hdl/register_temp.v
+!i122 2120
+R26
+R3
+r1
+!s85 0
+31
+R27
+!s107 ../src/hdl/register_temp.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+define+SIM|../src/hdl/register_temp.v|
+!i113 1
+R5
+R6
+R7
+vtest_bench
+!s110 1732277104
+!i10b 1
+!s100 <mgN?0IC[ZNO@Cb8E]Fd@3
+R0
+Icm7AW2gAnbzlChZ>0XWJS0
+R1
+R10
+w1732277044
+8./tb/test_bench.v
+F./tb/test_bench.v
+!i122 2126
+L0 2 76
+R3
+r1
+!s85 0
+31
+!s108 1732277104.000000
+!s107 ./tb/test_bench.v|
+!s90 -reportprogress|300|+acc|-incr|-source|+incdir+../src/inc|+define+SIM|./tb/test_bench.v|
+!i113 1
+R5
+!s92 +acc -source +incdir+../src/inc +define+SIM
+R7
+vtop_module
+!s110 1732187596
+!i10b 1
+!s100 C@nFg_mY8KiUeeO>Gk[cK0
+R0
+IgK0U0o1clbGGfT@NI]lGA1
+R1
+R8
+w1732037218
+8D:/UT TEHRAN/CAD/midterm/final_midterm/top_module.v
+FD:/UT TEHRAN/CAD/midterm/final_midterm/top_module.v
+!i122 2106
+L0 2 11
+R3
+r1
+!s85 0
+31
+!s108 1732187596.000000
+!s107 D:/UT TEHRAN/CAD/midterm/final_midterm/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/UT TEHRAN/CAD/midterm/final_midterm/top_module.v|
+!i113 1
+R9
+R7

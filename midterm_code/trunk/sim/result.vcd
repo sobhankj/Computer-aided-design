@@ -1,0 +1,88 @@
+$date
+	Wed Nov 20 22:01:40 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+$scope module test_bench $end
+$scope module tm $end
+$scope module dp $end
+$scope module reg_group_out $end
+$var wire 1 ! out_x [7] $end
+$var wire 1 " out_x [6] $end
+$var wire 1 # out_x [5] $end
+$var wire 1 $ out_x [4] $end
+$var wire 1 % out_x [3] $end
+$var wire 1 & out_x [2] $end
+$var wire 1 ' out_x [1] $end
+$var wire 1 ( out_x [0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+x!
+x"
+x#
+x$
+x%
+x&
+x'
+x(
+#50
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#70
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+#90
+0"
+0#
+0$
+#110
+0%
+0&
+0'
+#130
+0(
+#150
+1&
+1(
+#410
+0&
+0(
+#430
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+#450
+0$
+0%
+0&
+0'
+0(
+#470
+1$
+#490
+1%
+#510
+1&

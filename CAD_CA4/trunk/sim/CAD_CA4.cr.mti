@@ -1,0 +1,118 @@
+{D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Buffer
+
+Top level modules:
+	Buffer
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/datapath.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/datapath_components.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/datapath_components.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+-- Compiling module multiplier
+-- Compiling module adder_conv
+-- Compiling module write_counter
+-- Compiling module counter_type_1
+-- Compiling module mux_2_to_1
+-- Compiling module mux_4_to_1
+-- Compiling module ifmap_canwrite
+-- Compiling module Scratchpad_register_type
+-- Compiling module Scratchpad_SRAM_type
+-- Compiling module read_controller
+-- Compiling module data_start
+-- Compiling module read_address_generator_IF
+-- Compiling module filter_element
+-- Compiling module which_filter
+-- Compiling module read_address_generator_Filter
+-- Compiling module load_start_end
+-- Compiling module comparetor
+-- Compiling module write_controller
+-- Compiling module check_for_stall
+-- Compiling module check_for_end
+
+Top level modules:
+	multiplier
+	write_counter
+	counter_type_1
+	mux_2_to_1
+	ifmap_canwrite
+	Scratchpad_register_type
+	Scratchpad_SRAM_type
+	read_controller
+	read_address_generator_IF
+	read_address_generator_Filter
+	load_start_end
+	comparetor
+	write_controller
+	check_for_stall
+	check_for_end
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/controller.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_datapath.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BufferDatapath
+
+Top level modules:
+	BufferDatapath
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/sim/tb/convolution_calculator_tb.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/sim/tb/convolution_calculator_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/convolution_calculator.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/convolution_calculator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ConvolutionCalculator
+
+Top level modules:
+	ConvolutionCalculator
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_datapath_components.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_datapath_components.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fifo_buffer
+-- Compiling module write_cnt
+-- Compiling module read_cnt
+-- Compiling module checkout
+-- Compiling module comparator_full
+-- Compiling module adder
+-- Compiling module mux_ready
+-- Compiling module comparator_ready
+-- Compiling module comparator_empty
+-- Compiling module mux_valid
+-- Compiling module comparator_valid
+
+Top level modules:
+	fifo_buffer
+	write_cnt
+	read_cnt
+	checkout
+	comparator_full
+	adder
+	mux_ready
+	comparator_ready
+	comparator_empty
+	mux_valid
+	comparator_valid
+
+} {} {}} {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_controller.v} {1 {vlog -work work -stats=none {D:/educational/5th term/CAD/CAs/4/CAD_HW4_P2_810101549_810101496/src/hdl/Buffer_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BufferController
+
+Top level modules:
+	BufferController
+
+} {} {}}
